@@ -5,7 +5,7 @@ body {
     color:black;
 }
 body.dark-mode {
-    background-color:#191938;
+    background-color:#262c3b;
     height:100%;
     width:100%;
     color:white;
@@ -14,7 +14,7 @@ body.dark-mode {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #280a38;
+  background-color: #16503d;
   font-family: Arial;
 }
 navbar.dark-mode {
@@ -108,10 +108,10 @@ navbar.dark-mode {
 }
 
  hr.new1 {
-     border: 20px solid #280a38;
+     border: 20px solid #16503d;
  }
 .button3 {
-    background-color: #280a38; 
+    background-color: #16503d; 
   border: none;
   color: white;
   padding: 10px 27px;
@@ -121,3 +121,8 @@ navbar.dark-mode {
   font-size: 16px;
 
 }
+.button3:hover{
+    background-color:#a0edee;
+    color:black;
+}
+
