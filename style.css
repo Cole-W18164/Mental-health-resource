@@ -10,14 +10,29 @@ body.dark-mode {
     width:100%;
     color:white;
 }
+h1{
+    font-size:40px;
+    padding:0px;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+headder{
+    background-color:#248f6b;
+    
+}
 
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #16503d;
+  background-color: #248f6b;
   font-family: Arial;
 }
-navbar.dark-mode {
+.navbar.dark-mode {
     overflow: hidden;
     background-color: #8208c4;
     font-family: Arial;
@@ -108,10 +123,10 @@ navbar.dark-mode {
 }
 
  hr.new1 {
-     border: 20px solid #16503d;
+     border: 20px solid #248f6b;
  }
 .button3 {
-    background-color: #16503d; 
+    background-color: #248f6b; 
   border: none;
   color: white;
   padding: 10px 27px;
@@ -125,4 +140,23 @@ navbar.dark-mode {
     background-color:#a0edee;
     color:black;
 }
+.button1:hover{
+    background-color:#48994b;
+}
+.button2:hover{
+    background-color:#8a2424;
+}
+h1{
+    text-align:center;
+    font-size:30px;
+}
 
+footer{
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#248f6b;
+   color: white;
+   text-align: center;
+}
